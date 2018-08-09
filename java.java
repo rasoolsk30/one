@@ -4,9 +4,9 @@ class PrimeCheck
    public static void main(String args[])
    {		
 	int temp;
-	boolean isPrime=true;
+	boolean isPrime=false;
 	Scanner scan= new Scanner(System.in);
-	System.out.println("Enter any number:");
+	System.out.println("Enter num:");
 	//capture the input in an integer
 	int num=scan.nextInt();
         scan.close();
